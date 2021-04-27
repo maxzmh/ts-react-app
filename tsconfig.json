@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "importHelpers": true,
+        "jsx": "react",
+        "baseUrl": ".",
+        "lib": [
+            "ES6",
+            "ES7",
+            "ESNext",
+            "DOM",
+            "DOM.Iterable",
+            "ScriptHost"
+        ],
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "removeComments": false,
+        "skipLibCheck": true,
+        "noImplicitAny": false,
+        "resolveJsonModule": true,
+        "strictNullChecks": false,
+        "types": [
+            "node"
+        ],
+        "typeRoots": [
+            "node_modules/@types"
+        ]
+    }
+}
